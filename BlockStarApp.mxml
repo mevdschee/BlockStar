@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ms:BlockStarApplication xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:ms="*" xmlns:ui="com.gskinner.ui.*">
+  <mx:Panel title="BlockStar v1.0" paddingTop="10" paddingBottom="10" paddingLeft="10" paddingRight="10">
+    <mx:Canvas>
+      <mx:VBox id="gameBox">
+        <mx:ProgressBar label="" id="timeBar" labelPlacement="center" visible="true" direction="left" mode="manual" width="100%"/>
+        <mx:HBox verticalAlign="bottom">
+          <ui:DisplayObjectWrapper watchSize="false">
+            <ms:BlockStar id="game"/>
+          </ui:DisplayObjectWrapper>
+          <mx:Text id="pointsText" selectable="false"/>
+        </mx:HBox>
+        <mx:Button label="Add new row" id="button" width="100%"/>
+      </mx:VBox>
+      <mx:VBox id="instructionBox" horizontalAlign="center" verticalAlign="middle" height="100%" width="100%" backgroundColor="0xffffff" backgroundAlpha="0.8">
+        <mx:Text width="100%" textAlign="center" paddingBottom="10" selectable="false">
+            <mx:htmlText>
+                <![CDATA[<font size="+2"><b><u>Instructions</u></b></font><br><br>Click the blocks to move them up. Five or more adjacent blocks of the same color will explode. Explode all blocks with a star to advance to the next level. Explode a block with a dot to get more time. Blocks with a star or dot can not be moved up. Press the "Add new row" button to get more blocks.<br><br>created by maurits@vdschee.nl]]>
+            </mx:htmlText>
+        </mx:Text>
+        <mx:Button label="Start game" id="startButton"/>
+      </mx:VBox>
+    </mx:Canvas>
+  </mx:Panel>
+</ms:BlockStarApplication>

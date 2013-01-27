@@ -1,0 +1,7 @@
+#!/bin/bash
+# install xml tools: sudo apt-get install xsltproc
+# and wget the svg2fxg.xsl transformation sheet
+wget http://bazaar.launchpad.net/~inkscape.dev/inkscape/trunk/download/nicoduf@yahoo.fr-20110114110437-k84q1kubm2ojkh1x/svg2fxg.xsl-20101221203409-pt9ao3mfg54jc8g3-2/svg2fxg.xsl
+xsltproc -o BlockSprite.fxg svg2fxg.xsl block.svg
+xsltproc -o StarSprite.fxg svg2fxg.xsl star.svg
+xsltproc -o TimeSprite.fxg svg2fxg.xsl time.svg

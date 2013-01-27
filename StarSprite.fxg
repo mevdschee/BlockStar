@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graphic xmlns="http://ns.adobe.com/fxg/2008" xmlns:fxg="http://ns.adobe.com/fxg/2008" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd" version="2.0" viewWidth="20" viewHeight="20">
+  <mask>
+    <Group>
+      <Rect width="20" height="20">
+        <fill>
+          <SolidColor color="#ffffff" alpha="1"/>
+        </fill>
+      </Rect>
+    </Group>
+  </mask>
+  <!--Unknown tag: defs-->
+  <!--Unknown tag: sodipodi:namedview-->
+  <!--Unknown tag: metadata-->
+  <Group id="layer1">
+    <Path data="M 0 -5.4185989e-09 L 64 -5.4185989e-09 L 64 64 L 0 64 L 0 -5.4185989e-09 z" winding="nonZero" id="rect2392"/>
+    <Group>
+      <transform>
+        <Transform>
+          <matrix>
+            <Matrix a="0.8657588" b="0" c="0" d="0.8910544" tx="7.48" ty="6.69"/>
+          </matrix>
+        </Transform>
+      </transform>
+      <Path data="M 8.5454544 10.909091 L 3.3736581 8.6143791 L -1.4486409 11.573874 L -0.86441319 5.9460986 L -5.1692325 2.2743539 L 0.36363638 1.0909092 L 2.5254107 -4.1378487 L 5.360684 0.75851774 L 11.001553 1.1987122 L 7.2209797 5.4082778 L 8.5454544 10.909091 z" winding="nonZero" alpha="1" id="path3330">
+        <fill>
+          <SolidColor color="#000000" alpha="1"/>
+        </fill>
+      </Path>
+    </Group>
+  </Group>
+</Graphic>

@@ -1,0 +1,9 @@
+#!/bin/bash
+# use flex sdk 4 and put it in ../sdk
+# use flash player 11 linux debugger and put it in ../sdk/bin/
+# 0xFFFFFF = 16777215
+../sdk/bin/mxmlc BlockStarApp.mxml -default-background-color 16777215 -default-size 600 600 -default-frame-rate 60 -debug
+if [ $? = 0 ]; then
+#wine ../sdk/bin/FlashPlayer.exe BlockStarApp.swf
+../sdk/bin/flashplayerdebugger BlockStarApp.swf
+fi

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graphic xmlns="http://ns.adobe.com/fxg/2008" xmlns:fxg="http://ns.adobe.com/fxg/2008" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd" version="2.0" viewWidth="20" viewHeight="20">
+  <mask>
+    <Group>
+      <Rect width="20" height="20">
+        <fill>
+          <SolidColor color="#ffffff" alpha="1"/>
+        </fill>
+      </Rect>
+    </Group>
+  </mask>
+  <!--Unknown tag: defs-->
+  <Group id="layer1">
+    <Path data="M 0 -5.4185989e-09 L 64 -5.4185989e-09 L 64 64 L 0 64 L 0 -5.4185989e-09 z" winding="nonZero" id="rect2392"/>
+    <Path data="M 1 1 C 6.9999999 1 13 1 19 1 C 19 6.9999998 19 13.000001 19 19 C 13 19 6.9999999 19 1 19 C 1 13.000001 1 6.9999998 1 1 z" winding="nonZero" alpha="1" id="rect3283">
+      <fill>
+        <SolidColor color="#FF0000" alpha="1"/>
+      </fill>
+    </Path>
+  </Group>
+</Graphic>
