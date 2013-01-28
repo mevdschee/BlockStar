@@ -8,12 +8,16 @@ demo: http://www.maurits.vdschee.nl/blockstar/
 ## Requirements
 
 - Apache Flex® SDK 4.9
-- Linux Flash Player 11 Projector content debugger
+- Flash Player 11 (content debugger)
 - Java 1.6
 
 ## Installation
 
-Download Apache Flex® SDK 4.9 and the playerglobal.swc to target the 11.5 APIs from:
+Download Apache Flex® SDK 4.9 binaries from (Mac version works for Linux):
+
+http://flex.apache.org/download.html
+
+Download the and "Projector content debugger" and "playerglobal.swc" from:
 
 http://www.adobe.com/support/flashplayer/downloads.html
 
