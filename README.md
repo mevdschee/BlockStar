@@ -1,7 +1,7 @@
 BlockStar
 =========
 
-Puzzle game build in Flex 4
+A puzzle game build in Flex 4
 
 Demo: http://www.maurits.vdschee.nl/blockstar/
 
